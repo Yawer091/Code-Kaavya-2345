@@ -1,14 +1,16 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
-import "./App.css";
+import { HomeBhawesh } from "./home.bhawesh";
 import Navbar from "./components/Navbar";
-// import React, { useState } from "react";
-// import { BiMenu } from "react-icons/bi";
+import "./App.css";
 
 function App() {
   return (
     <>
+      <HomeBhawesh />
+
       <Navbar />
+
     </>
   );
 }
