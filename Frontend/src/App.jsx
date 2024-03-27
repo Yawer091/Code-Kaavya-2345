@@ -1,13 +1,16 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
-import "./App.css";
 import { HomeBhawesh } from "./home.bhawesh";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <>
-      {/* <Button variant="contained">Hello world</Button> */}
       <HomeBhawesh />
+
+      <Navbar />
+
     </>
   );
 }
