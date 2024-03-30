@@ -1,0 +1,64 @@
+{
+    "OnTheMenu": [
+        {
+            "id": 1,
+            "info": "CRAFT",
+            "name": "Cheese Crisp Burgers",
+            "img": "https://media.blueapron.com/assets/registration/homepage/craft.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 2,
+            "info": "WELLNESS",
+            "name": "Turkey & Mushroom Lettuce Cups",
+            "img": "https://media.blueapron.com/assets/registration/homepage/wellness.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 3,
+            "info": "FAMILY FRIENDLY",
+            "name": "Mafalda Pasta",
+            "img": "https://media.blueapron.com/assets/registration/homepage/family-friendly.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 4,
+            "info": "FAST & EASY",
+            "name": "Sheet Pan Cheesy Jalapeño Chicken",
+            "img": "https://media.blueapron.com/assets/registration/homepage/fast-and-easy.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 5,
+            "info": "VEGETARIAN",
+            "name": "Quinoa & Vegetable “Fried Rice”",
+            "img": "https://media.blueapron.com/assets/registration/homepage/vegetarian.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 6,
+            "info": "PREMIUM",
+            "name": "NY Strip Steaks & Herb-Mushroom Pan Sauce",
+            "img": "https://media.blueapron.com/assets/registration/homepage/premium-steak.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 7,
+            "info": "READY TO COOK",
+            "name": "Pesto Chicken and Orzo",
+            "img": "https://media.blueapron.com/assets/registration/homepage/ready-to-cook.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 8,
+            "info": "PREPARED & READY",
+            "name": "Chicken Parmesan",
+            "img": "https://media.blueapron.com/assets/registration/homepage/prepped-and-ready-tile.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 9,
+            "info": "BREAKFAST",
+            "name": "Fried Egg & Prosciutto Sandwiches",
+            "img": "https://media.blueapron.com/assets/registration/homepage/breakfast.webp?width=300&amp;height=300&amp;quality=90"
+        },
+        {
+            "id": 10,
+            "info": "DESSERTS",
+            "name": "flourless Chocolate Cake",
+            "img": "https://media.blueapron.com/assets/registration/homepage/desserts.webp?width=300&amp;height=300&amp;quality=90"
+        }
+    ]
+}
