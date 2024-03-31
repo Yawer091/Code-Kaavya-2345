@@ -26,7 +26,9 @@ const Contribution = ({ user }) => {
   };
   return (
     <div style={{ width: "75%", margin: "auto" }}>
-      <h1 style={{ fontWeight: "bold", fontSize : "25px", margin : "30px 0" }}>Contributions by all users</h1>
+      <h1 style={{ fontWeight: "bold", fontSize: "25px", margin: "30px 0" }}>
+        Contributions by all users
+      </h1>
       <Bar data={chartData} />
     </div>
   );

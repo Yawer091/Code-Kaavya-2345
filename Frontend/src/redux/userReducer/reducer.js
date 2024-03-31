@@ -122,12 +122,12 @@ export const reducer = (state = initState, action) => {
     case POST_ACCEPTREQUEST_SUCCESS:
       console.log(action.payload);
       let filteredRequests = [...state.requests].filter(
-        (req) => req._id != action.payload
+        (req) => req._id !== action.payload
       );
       console.log(filteredRequests);
       let addedFriends = [...state.friends];
       for (let i = 0; i < state.requests.length; i++) {
-        if (state.requests[i]._id == action.payload) {
+        if (state.requests[i]._id === action.payload) {
           addedFriends.push(state.requests[i]);
         }
       }
@@ -153,11 +153,11 @@ export const reducer = (state = initState, action) => {
       };
     case POST_REJECTREQUEST_SUCCESS:
       let newRequests = [...state.requests].filter(
-        (req) => req._id != action.payload
+        (req) => req._id !== action.payload
       );
       let newNonFriends = [...state.nonFriends];
       for (let i = 0; i < state.requests.length; i++) {
-        if (state.requests[i]._id == action.payload) {
+        if (state.requests[i]._id === action.payload) {
           newNonFriends.push(state.requests[i]);
         }
       }

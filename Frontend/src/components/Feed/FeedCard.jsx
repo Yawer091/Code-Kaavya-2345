@@ -75,10 +75,10 @@ export default function FeedCard({ recipe }) {
     // Check if the loggedInUser has already liked the recipe
     if (liked) {
       let newLikes = [...recipe.likes].filter(
-        (like) => like != loggedInUser._id
+        (like) => like !== loggedInUser._id
       );
       let newLikedRecipes = [...loggedInUser.likedRecipes].filter(
-        (recipeId) => recipeId != recipe._id
+        (recipeId) => recipeId !== recipe._id
       );
 
       console.log(newLikes, 1, newLikedRecipes, 2);
@@ -278,7 +278,7 @@ export default function FeedCard({ recipe }) {
           size="2xl"
         />
       </>
-    ); 
+    );
   }
   return (
     <div style={{ marginBlock: "0 2rem" }}>

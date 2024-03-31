@@ -21,7 +21,7 @@ const initState = {
   isAuth: false,
   token: null,
   loggedInUser: null,
-  recipes : null
+  recipes: null,
 };
 
 export const reducer = (state = initState, action) => {
@@ -94,15 +94,15 @@ export const reducer = (state = initState, action) => {
       };
     case POST_DISLIKE_SUCCESS:
       let newLikedRecipes1 = [...state.loggedInUser.likedRecipes].filter(
-        (rec) => rec != action.payload
+        (rec) => rec !== action.payload
       );
       return {
         ...state,
         loggedInUser: { ...state.loggedInUser, likedRecipes: newLikedRecipes1 },
       };
-    case "GET_USER_RECIPES" : {
+    case "GET_USER_RECIPES": {
       return {
-      ...state,
+        ...state,
         recipes: action.payload,
       };
     }

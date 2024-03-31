@@ -74,7 +74,7 @@ export const Navbar = () => {
             base: "flex-end",
           }}
         >
-          {/* <Text
+          <Text
             as={Link}
             to="/"
             fontSize="2xl"
@@ -82,15 +82,15 @@ export const Navbar = () => {
             letterSpacing={"1px"}
             color={textColor}
           >
-            Home
-            <Text display="inline" color="primary.500">
-              Chef
-            </Text>
-          </Text> */}
+            <img src="./images/LOGO.jpg" alt="" style={{ width: "110px" }} />
+          </Text>
           {/* Code-Kaavya-2345\Frontend\public\images\LOGO.jpg */}
-          <div style={{ width: "100px", objectFit: "cover" }}>
-            <img src="./images/LOGO.jpg" alt="" />
-          </div>
+          {/* <div style={{ width: "100px", objectFit: "cover" }}>
+            <a href="#">
+              {" "}
+              <img src="./images/LOGO.jpg" alt="" />
+            </a>
+          </div> */}
           <Flex
             display={{ base: "none", md: "flex" }}
             ml={{ lg: 8, md: 4, base: 2 }}

@@ -16,7 +16,8 @@ export const Login = () => {
     >
       <Box width="50%" overflow={"hidden"}>
         <Image
-          src={"/images/loginImage.jpg"}
+          // src={"/images/loginImage.jpg"}
+          src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Bengali_Sandesh_-_1.jpg"
           alt="Login Image"
           objectFit="cover"
           maxH="30rem"

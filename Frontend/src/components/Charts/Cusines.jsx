@@ -1,5 +1,5 @@
-import React from 'react';
-import { Radar } from 'react-chartjs-2';
+import React from "react";
+import { Radar } from "react-chartjs-2";
 
 const Cuisines = ({ recipes }) => {
   const cuisines = [
@@ -13,7 +13,6 @@ const Cuisines = ({ recipes }) => {
     "Japanese",
   ];
 
-  // Count the occurrences of each cuisine
   const cuisineCount = cuisines.reduce((acc, cuisine) => {
     acc[cuisine] = 0;
     return acc;
@@ -31,8 +30,8 @@ const Cuisines = ({ recipes }) => {
       {
         label: "Cuisine Count",
         data: Object.values(cuisineCount),
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        borderColor: "rgba(75, 192, 192, 1)",
         borderWidth: 1,
       },
     ],
@@ -51,8 +50,10 @@ const Cuisines = ({ recipes }) => {
   };
 
   return (
-    <div style={{ width : "40%", margin : 'auto' }}>
-      <h2  style={{ fontWeight: "bold", fontSize : "25px", margin : "30px 0" }}>Cuisines Distribution</h2>
+    <div style={{ width: "40%", margin: "auto" }}>
+      <h2 style={{ fontWeight: "bold", fontSize: "25px", margin: "30px 0" }}>
+        Cuisines Distribution
+      </h2>
       <Radar data={data} options={options} />
     </div>
   );

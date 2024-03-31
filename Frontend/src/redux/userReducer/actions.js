@@ -41,7 +41,7 @@ export const updateUser =
         }
       );
       console.log(response.data);
-      if (type == "request") {
+      if (type === "request") {
         dispatch({ type: POST_REQUEST_SUCCESS, payload: id });
         toast({
           title: "Friend Request Sent",
@@ -49,7 +49,7 @@ export const updateUser =
           duration: 3000,
           isClosable: true,
         });
-      } else if (type == "accept") {
+      } else if (type === "accept") {
         dispatch({ type: POST_ACCEPTREQUEST_SUCCESS, payload: id2 });
         toast({
           title: "Friend Request Accepted",
@@ -118,7 +118,7 @@ export const addToFriend = (id, userId, token) => async (dispatch) => {
         },
       }
     );
-    // console.log(response);
+    console.log(response);
   } catch (error) {
     console.log(error);
   }
