@@ -189,12 +189,17 @@ const FriendCard = ({ friend }) => {
 
   useEffect(() => {
     socket.on("sendMessage", (data) => {
-      console.log("Refresh message")
-      axios.get(`${process.env.REACT_APP_API_URL}/chat/getmessage/${user._id}/${friend._id}`).then((res) => {
-        setChat(res.data)
-      }).catch((err) => {
-        console.log(err)
-      })
+      console.log("Refresh message");
+      axios
+        .get(
+          `${process.env.REACT_APP_API_URL}/chat/getmessage/${user._id}/${friend._id}`
+        )
+        .then((res) => {
+          setChat(res.data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
     });
   }, [socket]);
 
@@ -373,7 +378,7 @@ const CHATBOX = styled.div`
     flex-direction: row-reverse;
   }
   .right-msg .msg-bubble {
-    background: #e89c45;
+    background: ##558b2f;
     color: #fff;
     border-bottom-right-radius: 0;
   }

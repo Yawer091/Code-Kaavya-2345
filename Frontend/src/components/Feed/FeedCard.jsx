@@ -308,7 +308,7 @@ export default function FeedCard({ recipe }) {
               variant="ghost"
               icon={
                 saved ? (
-                  <BsBookmarkFill color="#fb8500" size={32} />
+                  <BsBookmarkFill color="##558b2f" size={32} />
                 ) : (
                   <BsBookmark color="#8c8c8c" size={32} />
                 )

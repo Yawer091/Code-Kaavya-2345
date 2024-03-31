@@ -84,13 +84,7 @@ export const Navbar = () => {
           >
             <img src="./images/LOGO.jpg" alt="" style={{ width: "110px" }} />
           </Text>
-          {/* Code-Kaavya-2345\Frontend\public\images\LOGO.jpg */}
-          {/* <div style={{ width: "100px", objectFit: "cover" }}>
-            <a href="#">
-              {" "}
-              <img src="./images/LOGO.jpg" alt="" />
-            </a>
-          </div> */}
+
           <Flex
             display={{ base: "none", md: "flex" }}
             ml={{ lg: 8, md: 4, base: 2 }}

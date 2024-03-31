@@ -96,7 +96,7 @@ export const Home = () => {
       md: 2,
       base: 1,
     };
-    console.log(screenSize);
+    // console.log(screenSize);
     return recipes.slice(0, recipesToShow[screenSize]);
   };
 

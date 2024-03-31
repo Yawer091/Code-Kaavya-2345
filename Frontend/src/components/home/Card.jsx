@@ -6,17 +6,17 @@ const InfoCard = ({ title, img, direction, mb, screenSize }) => {
     <Flex
       margin="auto"
       // border="1px solid black"
-      direction={screenSize == "lg" ? direction : "column"}
+      direction={screenSize === "lg" ? direction : "column"}
       width="min(80rem,100%)"
       alignItems="center"
       gap={{ lg: "2rem", base: "4rem" }}
       px={4}
-      mb={screenSize == "lg" ? mb : "4rem"}
+      mb={screenSize === "lg" ? mb : "4rem"}
     >
       <Box
         width={{ lg: "65%", base: "75%" }}
         position="relative"
-        mb={screenSize == "lg" ? "2rem" : "0"}
+        mb={screenSize === "lg" ? "2rem" : "0"}
       >
         <img
           src="/images/Pattern.png"
@@ -24,8 +24,8 @@ const InfoCard = ({ title, img, direction, mb, screenSize }) => {
           style={{
             width: "40%",
             position: "absolute",
-            right: direction == "row-reverse" ? "auto" : "76%",
-            left: direction == "row-reverse" ? "76%" : "auto",
+            right: direction === "row-reverse" ? "auto" : "76%",
+            left: direction === "row-reverse" ? "76%" : "auto",
             top: "70%",
           }}
         />

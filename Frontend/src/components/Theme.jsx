@@ -22,7 +22,7 @@ const theme = extendTheme({
       900: "#33691e",
     },
     secondary: "#8c8c8c",
-    accent: "#e89c45",
+    accent: "#558b2f",
   },
   styles: {
     global: {

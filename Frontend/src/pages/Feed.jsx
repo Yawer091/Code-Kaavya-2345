@@ -52,7 +52,7 @@ export const Feed = () => {
           </Heading>
           <InputGroup mb="10px">
             <InputLeftElement pointerEvents="none">
-              <BsSearch color="gray.300" />
+              <BsSearch color="primary.500" />
             </InputLeftElement>
             <Input type="search" placeholder="Search" />
           </InputGroup>

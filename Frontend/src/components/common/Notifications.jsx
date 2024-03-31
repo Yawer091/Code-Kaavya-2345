@@ -28,11 +28,11 @@ export const Notifications = () => {
   const getNotificationIcon = (type) => {
     switch (type) {
       case "comment":
-        return <FaComment color="#fb8600ca" />; // Chakra UI Comment icon
+        return <FaComment color="#558b2f" />;
       case "like":
-        return <CheckCircleIcon color="#fb8500ca" />; // Chakra UI CheckCircle icon
+        return <CheckCircleIcon color="" />;
       case "post":
-        return <EditIcon color="#fb8500ca" />; // Chakra UI Edit icon
+        return <EditIcon color="#558b2f" />;
       default:
         return null;
     }
@@ -63,15 +63,11 @@ export const Notifications = () => {
   };
 
   useEffect(() => {
-    // Fetch notifications when the component mounts
     fetchNotifications();
-
-    // Set up an interval to fetch new notifications every 5 seconds
     const intervalId = setInterval(() => {
       fetchNotifications();
     }, 5000);
 
-    // Cleanup the interval when the component unmounts
     return () => {
       clearInterval(intervalId);
     };
