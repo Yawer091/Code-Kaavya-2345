@@ -6,22 +6,12 @@ const Notification = require("../models/Notification.model");
 exports.addNewComment = async (req, res, next) => {
   try {
     const { text, userId, recipeId } = req.body;
-
-    // Create a new comment
     const comment = new Comment({ text, userId, recipeId });
-
-    // Save the comment to the database
     await comment.save();
-
-    // Update the associated recipe with the comment ID
     await Recipe.findByIdAndUpdate(recipeId, {
       $push: { comments: comment._id },
     });
-
-    // Fetch the username of the user who commented
     const commenter = await User.findById(userId);
-
-    // Create a notification for the owner of the recipe
     const recipe = await Recipe.findById(recipeId);
     if (recipe && recipe.userId) {
       const notification = new Notification({
@@ -42,9 +32,7 @@ exports.addNewComment = async (req, res, next) => {
 
 exports.getComments = async (req, res, next) => {
   try {
-    // You can add pagination here if needed
     const comments = await Comment.find();
-
     res
       .status(200)
       .json({ message: "Comments retrieved successfully", comments });
@@ -57,10 +45,6 @@ exports.updateComment = async (req, res, next) => {
   try {
     const { text } = req.body;
     const commentId = req.params.id;
-
-    // You should perform some validation on the input data here
-
-    // Update the comment
     const comment = await Comment.findByIdAndUpdate(
       commentId,
       { text },
@@ -80,15 +64,11 @@ exports.updateComment = async (req, res, next) => {
 exports.deleteComment = async (req, res, next) => {
   try {
     const commentId = req.params.id;
-
-    // Delete the comment
     const comment = await Comment.findByIdAndRemove(commentId);
 
     if (!comment) {
       return res.status(404).json({ message: "Comment not found" });
     }
-
-    // Remove the comment reference from the associated recipe
     await Recipe.findByIdAndUpdate(comment.recipeId, {
       $pull: { comments: commentId },
     });

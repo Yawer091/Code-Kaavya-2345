@@ -8,9 +8,7 @@ exports.addNewNotification = async (req, res, next) => {};
 exports.getNotifications = async (req, res, next) => {
   try {
     const userId = req.userId;
-    // Assuming you want to fetch notifications from the database
     const notifications = await Notification.find({ userId });
-    // Format the timestamps in a readable format for each notification
     const formattedNotifications = notifications.map((notification) => {
       const notificationTime = new Date(notification.time);
       const formattedTime = notificationTime.toLocaleString("en-US", {

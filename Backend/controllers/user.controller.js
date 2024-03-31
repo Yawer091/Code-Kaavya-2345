@@ -33,7 +33,7 @@ exports.getLoggedInUser = async (req, res, next) => {
 
 exports.updateUser = async (req, res, next) => {
   const { id } = req.params;
-  const type = req.header("X-Action-Type"); // Get the type from the request header
+  const type = req.header("X-Action-Type");
 
   try {
     const updatedUser = await User.findByIdAndUpdate(id, req.body, {
@@ -42,11 +42,7 @@ exports.updateUser = async (req, res, next) => {
 
     if (type === "like") {
       const recipeId = req.body.likedRecipes[req.body.likedRecipes.length - 1];
-
-      // Fetch the username of the user who liked the post
       const liker = await User.findById(id);
-
-      // Fetch the recipe and its owner
       const recipe = await Recipe.findById(recipeId);
       if (recipe && recipe.userId) {
         const notification = new Notification({
@@ -100,12 +96,8 @@ exports.getNotFriends = async (req, res, next) => {
 
 exports.getRequests = async (req, res, next) => {
   try {
-    const userId = req.userId; // Assuming you have the user's ID in the request
-
-    // Find the logged-in user to access their requests array
+    const userId = req.userId;
     const user = await User.findOne({ _id: userId }).populate("requests");
-
-    // Get the list of users in the logged-in user's requests array
     const requestUsers = user.requests;
 
     res.status(200).json({ message: "Requests List found", requestUsers });
@@ -117,12 +109,8 @@ exports.getRequests = async (req, res, next) => {
 
 exports.getFriends = async (req, res, next) => {
   try {
-    const userId = req.userId; // Assuming you have the user's ID in the request
-
-    // Find the logged-in user to access their requests array
+    const userId = req.userId;
     const user = await User.findOne({ _id: userId }).populate("friends");
-
-    // Get the list of users in the logged-in user's requests array
     const friends = user.friends;
 
     res.status(200).json({ message: "Requests List found", friends });

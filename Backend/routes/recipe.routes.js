@@ -3,8 +3,6 @@ const router = express.Router();
 
 const auth = require("../middlewares/auth.middleware");
 const upload = require("../middlewares/upload.middleware");
-
-//* Recipe Controller
 const recipeController = require("../controllers/recipe.controller");
 
 router.get("/getAllRecipe", recipeController.getAllRecipe);

@@ -8,18 +8,14 @@ exports.addNewUser = async (req, res, next) => {
   try {
     const { name, email, password, city, gender, bio } = req.body;
     const profileImage = req.file ? req.file.path : null;
-    // Check if the email is already registered
     let existingUser = await User.findOne({ email: email });
-    // console.log(existingUser, "test");
     if (existingUser) {
       return res.status(400).json({ message: "Email already registered" });
     } else {
       bcrypt.hash(password, 8, async function (err, hash) {
-        // Store hash in your password DB.
         if (err) {
           return res.status(400).json({ message: "Couldn't hash password" });
         } else if (hash) {
-          // Create a new user
           const newUser = new User({
             name,
             email,
@@ -54,12 +50,10 @@ exports.addNewUser = async (req, res, next) => {
 
 exports.loginUser = async (req, res, next) => {
   const { email, password } = req.body;
-  // console.log(req.body);/
   try {
     const user = await User.findOne({ email });
     if (user) {
       bcrypt.compare(password, user.password, function (err, result) {
-        // result == true
         if (err) {
           return res
             .status(400)
@@ -85,7 +79,6 @@ exports.loginUser = async (req, res, next) => {
 
 exports.logoutUser = async (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
-  // console.log(token);
   if (token) {
     const data = new BlackList({ token: token });
     await data.save();

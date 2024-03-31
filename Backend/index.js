@@ -21,7 +21,6 @@ app.use("/images", express.static("images"));
 
 //* ROUTES
 app.post("/upload", upload.array("file", 5), (req, res) => {
-  // Send an appropriate response to the client
   console.log(req.files);
   res.status(200).json({ message: "File upload successful" });
 });

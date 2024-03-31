@@ -2,7 +2,6 @@ const express = require("express");
 const { ChatModel } = require("../models/Chat.model");
 const chatRouter = express.Router();
 
-// Router to create chat between
 chatRouter.post("/addmessage", async (req, res) => {
   console.log(req.body);
   try {
@@ -20,11 +19,11 @@ chatRouter.get("/getmessage/:firstId/:secondId", async (req, res) => {
 
   try {
     const chat = await ChatModel.find({
-        $or: [
-          { sender: firstId, receiver: secondId },
-          { sender: secondId, receiver: firstId },
-        ],
-      });
+      $or: [
+        { sender: firstId, receiver: secondId },
+        { sender: secondId, receiver: firstId },
+      ],
+    });
 
     res.status(200).send(chat);
   } catch (error) {
