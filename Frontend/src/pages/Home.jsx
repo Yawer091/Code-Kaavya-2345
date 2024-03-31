@@ -112,10 +112,11 @@ export const Home = () => {
           <div className="hero-content" style={{ paddingInline: "1rem" }}>
             <Heading
               as="h1"
-              fontSize={{ lg: "3rem", md: "2rem", base: "1.5rem" }}
+              fontSize={{ lg: "3rem", md: "2.5rem", base: "2rem" }}
               fontWeight={{ lg: "800", md: "700", base: "600" }}
               textTransform="uppercase"
               textAlign="center"
+              marginTop="2rem"
               noOfLines={2}
               mb="1rem"
               textShadow="3px 3px 4px white"
@@ -124,7 +125,8 @@ export const Home = () => {
               and the right Nutrition.
             </Heading>
             <Text textAlign="center" mb="2rem">
-              Browse Through Over 6500 Tasty Recipes
+              Find your new favorite meal with meal kits starting at{" "}
+              <span style={{ fontWeight: "500" }}>$7.99</span> per serving
             </Text>
             <Button>MORE RECIPES</Button>
             <Grid
@@ -219,7 +221,6 @@ export const Home = () => {
       <Reveal>
         <Flex
           mx="auto"
-          // border="1px solid black"
           direction={{ lg: "row", md: "row", base: "column" }}
           paddingBlock={{ lg: "8rem 10rem", md: "5rem", base: "4rem" }}
           px={4}
