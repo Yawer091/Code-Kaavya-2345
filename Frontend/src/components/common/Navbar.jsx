@@ -32,15 +32,15 @@ export const Navbar = () => {
 
   const bgColor = useColorModeValue("white", "gray.800");
   const textColor = useColorModeValue("primary-500", "white");
+
   const borderColor = useColorModeValue("gray.200", "gray.900");
   const signInColor = useColorModeValue("gray.600", "gray.200");
-
   const logoutHandler = () => {
     dispatch(logoutUser(token, toast, navigate));
   };
 
-  if(address.pathname === "/admin") {
-    return 
+  if (address.pathname === "/admin") {
+    return;
   }
 
   return (
@@ -74,21 +74,23 @@ export const Navbar = () => {
             base: "flex-end",
           }}
         >
-          <Text
+          {/* <Text
             as={Link}
             to="/"
             fontSize="2xl"
             fontWeight="bold"
             letterSpacing={"1px"}
-            fontFamily={"Kaushan Script"}
             color={textColor}
           >
-            Recipe
+            Home
             <Text display="inline" color="primary.500">
-              Hub
+              Chef
             </Text>
-          </Text>
-
+          </Text> */}
+          {/* Code-Kaavya-2345\Frontend\public\images\LOGO.jpg */}
+          <div style={{ width: "100px", objectFit: "cover" }}>
+            <img src="./images/LOGO.jpg" alt="" />
+          </div>
           <Flex
             display={{ base: "none", md: "flex" }}
             ml={{ lg: 8, md: 4, base: 2 }}
@@ -162,7 +164,7 @@ export const Navbar = () => {
 
 const DesktopNav = () => {
   const linkColor = useColorModeValue("text", "white");
-  const linkHoverColor = useColorModeValue("primary.500", "teal.500");
+  const linkHoverColor = useColorModeValue("primary.900", "teal.900");
   const isAuth = useSelector((store) => store.authReducer.isAuth);
   const token = useSelector((store) => store.authReducer.token);
   const dispatch = useDispatch();
@@ -170,7 +172,7 @@ const DesktopNav = () => {
   const navigate = useNavigate();
 
   const bgColor = useColorModeValue("white", "gray.800");
-  const textColor = useColorModeValue("primary-500", "white");
+  const textColor = useColorModeValue("primary.900", "white");
   const borderColor = useColorModeValue("gray.200", "gray.900");
   const signInColor = useColorModeValue("gray.600", "gray.200");
 
@@ -292,7 +294,7 @@ const MobileNavItem = ({ label, href }) => {
       as={Link}
       to={href ?? "#"}
       fontWeight={600}
-      color={useColorModeValue("primary.500", "white")}
+      color={useColorModeValue("primary.900", "white")}
       _hover={{
         textDecoration: "none",
       }}

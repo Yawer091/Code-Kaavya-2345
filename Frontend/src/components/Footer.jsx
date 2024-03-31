@@ -17,33 +17,31 @@ import {
 import { useLocation } from "react-router-dom";
 
 function Footer() {
-
   const location = useLocation();
 
-  if(location.pathname === "/admin") {
-    return
+  if (location.pathname === "/admin") {
+    return;
   }
 
   return (
     <>
       <Divider orientation="horizontal" marginy="2rem" borderRadius="full" />
       <Box width="min(80rem,100%)" mx="auto" py={10} color="text" px={4}>
-        <Text
+        {/* <Text
           fontFamily={"Kaushan Script"}
           fontSize="2xl"
           fontWeight="bold"
           marginBottom="2rem"
         >
-          Recipe
+          Home
           <Text display="inline" color="primary.500">
-            Hub
-          </Text>
-        </Text>
-        <Flex
-          wrap={'wrap'}
-          gap={4}
-          justifyContent="space-between"
-        >
+            Chef
+          </Text> */}
+        {/* </Text> */}
+        <div style={{ width: "100px", objectFit: "cover" }}>
+          <img src="./images/LOGO.jpg" alt="" />
+        </div>
+        <Flex wrap={"wrap"} gap={4} justifyContent="space-between">
           <Box>
             <Heading as="h6" size="MD" marginBottom="16px">
               ABOUT NCG
@@ -73,14 +71,14 @@ function Footer() {
                   boxSize={6}
                   marginRight="16px"
                   transition="0.2s ease-in"
-                  _hover={{ color: "primary.500" }}
+                  _hover={{ color: "green" }}
                 />
               </Link>
               <Link href="#">
                 <Icon
                   as={FaTwitter}
                   transition="0.2s ease-in"
-                  _hover={{ color: "primary.500" }}
+                  _hover={{ color: "green" }}
                   boxSize={6}
                   marginRight="16px"
                 />
@@ -89,7 +87,7 @@ function Footer() {
                 <Icon
                   as={FaEnvelope}
                   transition="0.2s ease-in"
-                  _hover={{ color: "primary.500" }}
+                  _hover={{ color: "green" }}
                   boxSize={6}
                   marginRight="16px"
                 />
@@ -98,7 +96,7 @@ function Footer() {
                 <Icon
                   as={FaPinterest}
                   transition="0.2s ease-in"
-                  _hover={{ color: "primary.500" }}
+                  _hover={{ color: "green" }}
                   boxSize={6}
                   marginRight="16px"
                 />
@@ -107,7 +105,7 @@ function Footer() {
                 <Icon
                   as={FaLinkedin}
                   transition="0.2s ease-in"
-                  _hover={{ color: "primary.500" }}
+                  _hover={{ color: "green" }}
                   boxSize={6}
                   marginRight="16px"
                 />
