@@ -17,6 +17,9 @@ const chatRouter = require("./routes/chat.routes");
 
 app.use(cors());
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("HOME PAGE");
+});
 app.use("/images", express.static("images"));
 
 //* ROUTES
