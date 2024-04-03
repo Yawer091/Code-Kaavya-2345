@@ -62,7 +62,6 @@ export const Explore = () => {
     onClose();
   };
 
-  // Function to set cuisine multiple option
   const handleCuisineChange = (e) => {
     const data = e.target.value;
     const newCuisines = [...selectedCuisines];
@@ -97,18 +96,17 @@ export const Explore = () => {
         headers: config.headers,
       })
       .then((res) => {
-        let filteredRecipes = res.data; // Initialize filteredRecipes with all recipes
+        let filteredRecipes = res.data;
 
         if (selectedCuisines.length > 0) {
           filteredRecipes = res.data.filter((recipe) => {
-            // Check if at least one cuisine in the selectedCuisines array matches the cuisines of the recipe
             return selectedCuisines.some((selectedCuisine) =>
               recipe.cuisine.includes(selectedCuisine)
             );
           });
         }
 
-        setRecipe(filteredRecipes); // Set the state with the filtered or unfiltered recipes
+        setRecipe(filteredRecipes);
         setSelectedOption(null);
       })
       .catch((err) => {
@@ -133,7 +131,6 @@ export const Explore = () => {
   return (
     <>
       <Box>
-        {/* Hero section image with heading and a button */}
         <Box h="45vh" position="relative">
           <Image
             src="https://images.unsplash.com/photo-1495546968767-f0573cca821e?auto=format&fit=crop&q=80&w=2831&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -169,7 +166,6 @@ export const Explore = () => {
         {/* Search bar and advance search option */}
         <Box boxShadow="0 4px 10px #0002" padding="4">
           <HStack spacing={5} width="min(80rem,100%)" mx="auto">
-            {/* <Input variant="flushed" placeholder="Flushed" width='30%' /> */}
             <InputGroup width="30%">
               <InputLeftElement pointerEvents="none">
                 <SearchIcon color="text" />
@@ -185,7 +181,6 @@ export const Explore = () => {
             <Heading as="h5" size="md" color="text">
               Advanced Search
             </Heading>
-            {/* This is the icon of filter */}
             <svg
               onClick={onOpen}
               width="30"
@@ -200,14 +195,12 @@ export const Explore = () => {
               />
             </svg>
           </HStack>
-          {/* This model will open when selected advance search feature */}
           <Modal isOpen={isOpen} onClose={onClose}>
             <ModalOverlay />
             <ModalContent>
               <ModalHeader>Modal Title</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
-                {/* Options for rating */}
                 <Select
                   value={impression}
                   onChange={handleImpressionChange}
@@ -216,7 +209,6 @@ export const Explore = () => {
                   <option value="asc">Highest</option>
                   <option value="desc">Lowest</option>
                 </Select>
-                {/* Options for selecting veg / non-veg recipe */}
                 <RadioGroup
                   marginY="5"
                   value={selectedOption}
@@ -280,7 +272,7 @@ export const Explore = () => {
         </Box>
         {/* Mapping all recipe */}
         <DIV>
-          {recipe.length == 0 ? (
+          {recipe.length === 0 ? (
             <Spinner
               mx="auto"
               thickness="4px"

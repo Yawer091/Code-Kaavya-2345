@@ -44,7 +44,7 @@ function Footer() {
         <Flex wrap={"wrap"} gap={4} justifyContent="space-between">
           <Box>
             <Heading as="h6" size="MD" marginBottom="16px">
-              ABOUT NCG
+              <a href="#"> ABOUT NCG</a>
             </Heading>
             <Text>Shop</Text>
             <Text>About</Text>

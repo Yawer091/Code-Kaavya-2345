@@ -10,6 +10,7 @@ import {
   SimpleGrid,
   Text,
   useToast,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import styled from "styled-components";
 import { getUserData, getUserRecipes } from "../redux/authReducer/actions";
@@ -18,7 +19,7 @@ import InfoCard from "../components/home/Card";
 import { RecipeCard } from "../components/home/RecipeCard";
 import ImageGrid from "../components/home/ImageGrid";
 import { Reveal } from "../components/common/Reveal";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link, useLocation } from "react-router-dom";
 const recipes = [
   {
     name: "Edli Samber",
@@ -99,7 +100,8 @@ export const Home = () => {
     // console.log(screenSize);
     return recipes.slice(0, recipesToShow[screenSize]);
   };
-
+  const linkColor = useColorModeValue("text", "white");
+  const linkHoverColor = useColorModeValue("primary.900", "teal.900");
   return (
     <DIV>
       <Reveal>
@@ -127,7 +129,20 @@ export const Home = () => {
               Find your new favorite meal with meal kits starting at{" "}
               <span style={{ fontWeight: "500" }}>$7.99</span> per serving
             </Text>
-            <Button>MORE RECIPES</Button>
+            <Button>
+              {" "}
+              <Text
+                as={Link}
+                to="/explore"
+                color={linkColor}
+                _hover={{
+                  textDecoration: "none",
+                  color: linkHoverColor,
+                }}
+              >
+                More item
+              </Text>
+            </Button>
             <Grid
               mt="3rem"
               width={{ xl: "100%", lg: "80%", md: "60%", base: "60%" }}
@@ -228,10 +243,9 @@ export const Home = () => {
           justifyContent={"space-between"}
           gap="2rem"
         >
-          <ImageGrid />
           <Box
             width={{ lg: "50%", base: "100%" }}
-            textAlign={{ lg: "right", base: "center" }}
+            textAlign={{ lg: "left", base: "center" }}
           >
             <Heading
               fontFamily={"Kaushan Script, sans-serif"}
@@ -248,7 +262,7 @@ export const Home = () => {
               noOfLines={{ lg: 2 }}
               color="text"
               maxW={{ lg: "500px" }}
-              ml="auto"
+              // ml="auto"
               size={{ lg: "xl", md: "lg", base: "md" }}
             >
               THAT'S WHAT OUR <br /> SAY CLIENT
@@ -263,6 +277,7 @@ export const Home = () => {
             </Text>
             <Button>Explore More</Button>
           </Box>
+          <ImageGrid />
         </Flex>
       </Reveal>
     </DIV>

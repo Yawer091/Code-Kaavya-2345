@@ -3,7 +3,11 @@ import { useDispatch, useSelector } from "react-redux";
 import { useToast } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
 import { MiniCard_Request } from "./MiniCard";
-import { addToFriend, getRequestsUsers, updateUser } from "../../redux/userReducer/actions";
+import {
+  addToFriend,
+  getRequestsUsers,
+  updateUser,
+} from "../../redux/userReducer/actions";
 
 export const Requests = () => {
   const toast = useToast();
@@ -21,40 +25,40 @@ export const Requests = () => {
   useEffect(() => {
     dispatch(getRequestsUsers(token));
   }, []);
-  // console.log(requests, token);
 
   function acceptRequestHandler(id) {
     console.log(id);
     const requestIds = requests.map((request) => request._id);
     const friendIds = friends.map((friend) => friend._id);
     const updatedRequests = requestIds.filter((requestId) => requestId !== id);
-    const updatedFriends = [...friendIds,id];
-    console.log(requestIds,friendIds);
-    console.log(updatedRequests,updatedFriends);
+    const updatedFriends = [...friendIds, id];
+    console.log(requestIds, friendIds);
+    console.log(updatedRequests, updatedFriends);
     dispatch(
       updateUser(
         loggedInUser._id,
         { requests: updatedRequests, friends: updatedFriends },
         token,
         toast,
-        "accept"
-        ,id
+        "accept",
+        id
       )
     );
-    dispatch(
-      addToFriend(
-        id,
-        loggedInUser._id,
-        token,
-      )
-    );
+    dispatch(addToFriend(id, loggedInUser._id, token));
   }
 
   function rejectRequestHandler(id) {
     const requestIds = requests.map((request) => request._id);
     const updatedRequests = requestIds.filter((requestId) => requestId !== id);
     dispatch(
-      updateUser(loggedInUser._id,{ requests: updatedRequests }, token, toast, "reject",id)
+      updateUser(
+        loggedInUser._id,
+        { requests: updatedRequests },
+        token,
+        toast,
+        "reject",
+        id
+      )
     );
   }
 
@@ -72,7 +76,7 @@ export const Requests = () => {
           );
         })
       ) : (
-        <Heading size='sm'>You Have No Pending Requests</Heading>
+        <Heading size="sm">You Have No Pending Requests</Heading>
       )}
     </div>
   );

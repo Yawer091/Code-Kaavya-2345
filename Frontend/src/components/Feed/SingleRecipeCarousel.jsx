@@ -45,7 +45,7 @@ export const Carousel = ({ images, height = "500px" }) => {
                 {sid + 1} / {slidesCount}
               </Text>
               <Image
-                src={`${process.env.REACT_APP_API_URL}/${image}`}
+                src={`${image}`}
                 alt={`carousel image ${sid + 1}`}
                 boxSize="full"
                 backgroundSize="cover"
