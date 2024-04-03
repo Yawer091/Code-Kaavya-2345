@@ -1,0 +1,536 @@
+[
+  {
+    "userId": "1",
+    "title": "Lemon Garlic Butter Salmon",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fried_Egg_2.jpg/330px-Fried_Egg_2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMpqzeysrNriSBHXzk3TxjULb-QgZ4WAQ5g1zw0vkAqg&s",
+      "https://www.inspiredtaste.net/wp-content/uploads/2023/09/Garlic-Caper-Butter-Baked-Salmon-Recipe-Video.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Gktrh5GrqDAYEMcW5SoqhI7FUdboH2DTbA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Gktrh5GrqDAYEMcW5SoqhI7FUdboH2DTbA&s"
+    ],
+    "description": "Delicious and healthy salmon fillets marinated in lemon, garlic, and butter.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1/4 cup melted butter",
+      "3 cloves garlic, minced",
+      "1 lemon, juiced and zested",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a small bowl, mix melted butter, minced garlic, lemon juice, and zest.",
+      "Place salmon fillets on a baking sheet lined with parchment paper.",
+      "Brush salmon fillets with the lemon garlic butter mixture. Season with salt and pepper.",
+      "Bake for 12-15 minutes or until salmon flakes easily with a fork.",
+      "Garnish with fresh parsley and serve hot."
+    ],
+    "caption": "A flavorful and easy-to-make seafood dish.",
+    "veg": false,
+    "time": "25 minutes",
+    "tags": ["salmon", "seafood", "healthy", "dinner"],
+    "cuisine": ["International"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.8,
+      "no_of_votes": 150
+    }
+  },
+  {
+    "userId": "2",
+    "title": "Vegetarian Thai Green Curry",
+    "images": [
+      "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg",
+      "https://www.thespruceeats.com/thmb/ct_GqJYwDKopEV0QoyJpC6Vw_Nc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegetarian-thai-green-coconut-curry-3217757-step-07-5cc48751072a46c597500c55115fe44b.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjlUwOOGodlWWjvEN-7iJ3m5d0N2rR6PKnQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAeaxImBoky1pD-tsyhKIF0-xp8P3wehlVqNG9euCTiA&s",
+      "https://recipes.net/wp-content/uploads/2023/07/vegetarian-thai-green-curry_cf7d256b2333e67cf8b01f5dc5e5f598.jpeg"
+    ],
+    "description": "A fragrant and creamy Thai green curry made with mixed vegetables, tofu, and coconut milk.",
+    "ingredients": [
+      "1 tablespoon green curry paste",
+      "1 can (13.5 oz) coconut milk",
+      "2 cups mixed vegetables (such as bell peppers, broccoli, carrots)",
+      "1 block tofu, cubed",
+      "1 tablespoon soy sauce",
+      "1 tablespoon brown sugar",
+      "Fresh basil leaves for garnish"
+    ],
+    "instructions": [
+      "In a large pan, heat coconut milk over medium heat.",
+      "Add green curry paste and stir until fragrant.",
+      "Add mixed vegetables and tofu cubes. Cook until vegetables are tender.",
+      "Season with soy sauce and brown sugar.",
+      "Garnish with fresh basil leaves and serve hot with steamed rice."
+    ],
+    "caption": "A comforting and aromatic curry that's perfect for vegetarians.",
+    "veg": true,
+    "time": "30 minutes",
+    "tags": ["curry", "Thai", "vegetarian", "dinner"],
+    "cuisine": ["Thai"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.6,
+      "no_of_votes": 120
+    }
+  },
+  {
+    "userId": "3",
+    "title": "Grilled Shrimp Skewers",
+    "images": [
+      "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2017/04/teriyaki-tofu-stir-fry-8.jpg?fit=1600%2C1000&ssl=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TaTqS_WNDPVlu09X8ckBXzoGRudA8piwOJz5ZZim4w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXllV6mKeoIzOp0Xqpvs_Qp7o-rpJtXasi2FvCViF5hQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_6ElfHuF8D__SXuNNT453hs4igj2UnusmQFp-azXSg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhG86udOiRD6RY1UHQog2Pl8AucE8k_QpZM7QvlIG6nA&s"
+    ],
+    "description": "Juicy shrimp marinated in a blend of garlic, lemon, and herbs, then grilled to perfection.",
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Lemon juice",
+      "Olive oil",
+      "Salt",
+      "Pepper",
+      "Herbs"
+    ],
+    "instructions": [
+      "Marinate shrimp in garlic, lemon juice, olive oil, salt, pepper, and herbs.",
+      "Skewer shrimp and grill until cooked through.",
+      "Serve hot."
+    ],
+    "caption": "A delightful seafood dish for grilling enthusiasts.",
+    "veg": false,
+    "time": "20 minutes",
+    "tags": ["shrimp", "seafood", "grilled", "appetizer"],
+    "cuisine": ["International"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.7,
+      "no_of_votes": 120
+    }
+  },
+  {
+    "userId": "4",
+    "title": "Mango Chicken Curry",
+    "images": [
+      "https://tatyanaseverydayfood.com/wp-content/uploads/2021/01/Mango-Chicken-Curry-Recipe-2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXmgvTOVnLpN4joh4j-v2OJJ07HDs4UAOjM5OzmoDJQ&s",
+      "https://img-global.cpcdn.com/recipes/a79144f102a9460f/680x482cq70/green-mango-chicken-curry-recipe-main-photo.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5gmbMh3qzmaxsmIp_ZGLJDj2qTeAndZF0rcRJ-66aLQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXmgvTOVnLpN4joh4j-v2OJJ07HDs4UAOjM5OzmoDJQ&s"
+    ],
+    "description": "Tender chicken simmered in a rich and creamy mango curry sauce, bursting with flavors of coconut, ginger, and spices.",
+    "ingredients": [
+      "Chicken",
+      "Mango",
+      "Coconut milk",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Curry powder",
+      "Coriander",
+      "Turmeric",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Sauté onion, garlic, and ginger.",
+      "Add chicken, mango, coconut milk, and spices.",
+      "Simmer until chicken is cooked through.",
+      "Serve with rice."
+    ],
+    "caption": "A tropical twist on classic curry.",
+    "veg": false,
+    "time": "40 minutes",
+    "tags": ["chicken", "curry", "mango", "dinner"],
+    "cuisine": ["Asian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.9,
+      "no_of_votes": 180
+    }
+  },
+  {
+    "userId": "5",
+    "title": "Caprese Salad",
+    "images": [
+      "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F3b432b41ce04c96a08d77befa42b9881a587a436",
+      "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/7/18/0/WU0314H_caprese-salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1530799895174.jpeg",
+      "https://www.lemontreedwelling.com/wp-content/uploads/2021/07/cucumber-caprese-salad-featured.jpg"
+    ],
+    "description": "A refreshing salad featuring ripe tomatoes, fresh mozzarella, basil leaves, and a drizzle of balsamic glaze.",
+    "ingredients": [
+      "Tomatoes",
+      "Fresh mozzarella",
+      "Basil leaves",
+      "Balsamic glaze",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella.",
+      "Arrange them with basil leaves on a plate.",
+      "Drizzle with balsamic glaze and olive oil.",
+      "Season with salt and pepper."
+    ],
+    "caption": "A simple yet elegant salad bursting with flavor.",
+    "veg": true,
+    "time": "15 minutes",
+    "tags": ["salad", "vegetarian", "italian", "appetizer"],
+    "cuisine": ["Italian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.6,
+      "no_of_votes": 90
+    }
+  },
+  {
+    "userId": "6",
+    "title": "Teriyaki Tofu Stir-Fry",
+    "images": [
+      "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2017/04/teriyaki-tofu-stir-fry-8.jpg?fit=1600%2C1000&ssl=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TaTqS_WNDPVlu09X8ckBXzoGRudA8piwOJz5ZZim4w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXllV6mKeoIzOp0Xqpvs_Qp7o-rpJtXasi2FvCViF5hQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_6ElfHuF8D__SXuNNT453hs4igj2UnusmQFp-azXSg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhG86udOiRD6RY1UHQog2Pl8AucE8k_QpZM7QvlIG6nA&s"
+    ],
+    "description": "Crispy tofu cubes stir-fried with colorful vegetables in a sweet and savory teriyaki sauce.",
+    "ingredients": [
+      "Tofu",
+      "Vegetables (bell peppers, broccoli, carrots)",
+      "Teriyaki sauce",
+      "Garlic",
+      "Ginger",
+      "Sesame oil",
+      "Soy sauce"
+    ],
+    "instructions": [
+      "Press tofu to remove excess moisture, then dice.",
+      "Stir-fry tofu with vegetables, garlic, and ginger.",
+      "Add teriyaki sauce and soy sauce.",
+      "Cook until vegetables are tender.",
+      "Serve over rice."
+    ],
+    "caption": "A vegetarian-friendly stir-fry packed with flavor.",
+    "veg": true,
+    "time": "30 minutes",
+    "tags": ["tofu", "stir-fry", "vegetarian", "dinner"],
+    "cuisine": ["Asian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.5,
+      "no_of_votes": 110
+    }
+  },
+  {
+    "userId": "7",
+    "title": "Pesto Pasta with Cherry Tomatoes",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINzNQf2kSMCtpoFXPAU9FPIgHN8QLbjLtNkb51-Mgqw&s",
+      "https://img.taste.com.au/r3gbCiSL/taste/2022/09/healthy-chicken-pesto-pasta-recipe-181111-1.jpg",
+      "https://ohsweetbasil.com/wp-content/uploads/15-minute-pesto-pasta-recipe-6-500x500.jpg",
+      "https://www.theburntbuttertable.com/wp-content/uploads/2023/10/Creamy-Pesto-Pasta-2.jpg",
+      "https://www.kitchensanctuary.com/wp-content/uploads/2023/07/Pesto-Pasta-square-FS.jpg"
+    ],
+    "description": "Al dente pasta tossed in vibrant basil pesto and topped with juicy cherry tomatoes and Parmesan cheese.",
+    "ingredients": [
+      "Pasta",
+      "Basil pesto",
+      "Cherry tomatoes",
+      "Parmesan cheese"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "Toss cooked pasta with basil pesto.",
+      "Top with halved cherry tomatoes and grated Parmesan cheese."
+    ],
+    "caption": "A quick and flavorful pasta dish perfect for busy weeknights.",
+    "veg": true,
+    "time": "20 minutes",
+    "tags": ["pasta", "vegetarian", "italian", "lunch"],
+    "cuisine": ["Italian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.8,
+      "no_of_votes": 130
+    }
+  },
+  {
+    "userId": "8",
+    "title": "Lemon Garlic Butter Salmon",
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fried_Egg_2.jpg/330px-Fried_Egg_2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMpqzeysrNriSBHXzk3TxjULb-QgZ4WAQ5g1zw0vkAqg&s",
+      "https://www.inspiredtaste.net/wp-content/uploads/2023/09/Garlic-Caper-Butter-Baked-Salmon-Recipe-Video.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Gktrh5GrqDAYEMcW5SoqhI7FUdboH2DTbA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Gktrh5GrqDAYEMcW5SoqhI7FUdboH2DTbA&s"
+    ],
+    "description": "Delicious and healthy salmon fillets marinated in lemon, garlic, and butter.",
+    "ingredients": [
+      "4 salmon fillets",
+      "1/4 cup melted butter",
+      "3 cloves garlic, minced",
+      "1 lemon, juiced and zested",
+      "Salt and pepper to taste",
+      "Fresh parsley for garnish"
+    ],
+    "instructions": [
+      "Preheat oven to 375°F (190°C).",
+      "In a small bowl, mix melted butter, minced garlic, lemon juice, and zest.",
+      "Place salmon fillets on a baking sheet lined with parchment paper.",
+      "Brush salmon fillets with the lemon garlic butter mixture. Season with salt and pepper.",
+      "Bake for 12-15 minutes or until salmon flakes easily with a fork.",
+      "Garnish with fresh parsley and serve hot."
+    ],
+    "caption": "A flavorful and easy-to-make seafood dish.",
+    "veg": false,
+    "time": "25 minutes",
+    "tags": ["salmon", "seafood", "healthy", "dinner"],
+    "cuisine": ["International"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.8,
+      "no_of_votes": 150
+    }
+  },
+  {
+    "userId": "9",
+    "title": "Vegetarian Thai Green Curry",
+    "images": [
+      "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg",
+      "https://www.thespruceeats.com/thmb/ct_GqJYwDKopEV0QoyJpC6Vw_Nc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vegetarian-thai-green-coconut-curry-3217757-step-07-5cc48751072a46c597500c55115fe44b.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjlUwOOGodlWWjvEN-7iJ3m5d0N2rR6PKnQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAeaxImBoky1pD-tsyhKIF0-xp8P3wehlVqNG9euCTiA&s",
+      "https://recipes.net/wp-content/uploads/2023/07/vegetarian-thai-green-curry_cf7d256b2333e67cf8b01f5dc5e5f598.jpeg"
+    ],
+    "description": "A fragrant and creamy Thai green curry made with mixed vegetables, tofu, and coconut milk.",
+    "ingredients": [
+      "1 tablespoon green curry paste",
+      "1 can (13.5 oz) coconut milk",
+      "2 cups mixed vegetables (such as bell peppers, broccoli, carrots)",
+      "1 block tofu, cubed",
+      "1 tablespoon soy sauce",
+      "1 tablespoon brown sugar",
+      "Fresh basil leaves for garnish"
+    ],
+    "instructions": [
+      "In a large pan, heat coconut milk over medium heat.",
+      "Add green curry paste and stir until fragrant.",
+      "Add mixed vegetables and tofu cubes. Cook until vegetables are tender.",
+      "Season with soy sauce and brown sugar.",
+      "Garnish with fresh basil leaves and serve hot with steamed rice."
+    ],
+    "caption": "A comforting and aromatic curry that's perfect for vegetarians.",
+    "veg": true,
+    "time": "30 minutes",
+    "tags": ["curry", "Thai", "vegetarian", "dinner"],
+    "cuisine": ["Thai"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.6,
+      "no_of_votes": 120
+    }
+  },
+  {
+    "userId": "10",
+    "title": "Grilled Shrimp Skewers",
+    "images": [
+      "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2017/04/teriyaki-tofu-stir-fry-8.jpg?fit=1600%2C1000&ssl=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TaTqS_WNDPVlu09X8ckBXzoGRudA8piwOJz5ZZim4w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXllV6mKeoIzOp0Xqpvs_Qp7o-rpJtXasi2FvCViF5hQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_6ElfHuF8D__SXuNNT453hs4igj2UnusmQFp-azXSg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhG86udOiRD6RY1UHQog2Pl8AucE8k_QpZM7QvlIG6nA&s"
+    ],
+    "description": "Juicy shrimp marinated in a blend of garlic, lemon, and herbs, then grilled to perfection.",
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Lemon juice",
+      "Olive oil",
+      "Salt",
+      "Pepper",
+      "Herbs"
+    ],
+    "instructions": [
+      "Marinate shrimp in garlic, lemon juice, olive oil, salt, pepper, and herbs.",
+      "Skewer shrimp and grill until cooked through.",
+      "Serve hot."
+    ],
+    "caption": "A delightful seafood dish for grilling enthusiasts.",
+    "veg": false,
+    "time": "20 minutes",
+    "tags": ["shrimp", "seafood", "grilled", "appetizer"],
+    "cuisine": ["International"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.7,
+      "no_of_votes": 120
+    }
+  },
+  {
+    "userId": "11",
+    "title": "Mango Chicken Curry",
+    "images": [
+      "https://tatyanaseverydayfood.com/wp-content/uploads/2021/01/Mango-Chicken-Curry-Recipe-2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXmgvTOVnLpN4joh4j-v2OJJ07HDs4UAOjM5OzmoDJQ&s",
+      "https://img-global.cpcdn.com/recipes/a79144f102a9460f/680x482cq70/green-mango-chicken-curry-recipe-main-photo.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5gmbMh3qzmaxsmIp_ZGLJDj2qTeAndZF0rcRJ-66aLQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQXmgvTOVnLpN4joh4j-v2OJJ07HDs4UAOjM5OzmoDJQ&s"
+    ],
+    "description": "Tender chicken simmered in a rich and creamy mango curry sauce, bursting with flavors of coconut, ginger, and spices.",
+    "ingredients": [
+      "Chicken",
+      "Mango",
+      "Coconut milk",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Curry powder",
+      "Coriander",
+      "Turmeric",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Sauté onion, garlic, and ginger.",
+      "Add chicken, mango, coconut milk, and spices.",
+      "Simmer until chicken is cooked through.",
+      "Serve with rice."
+    ],
+    "caption": "A tropical twist on classic curry.",
+    "veg": false,
+    "time": "40 minutes",
+    "tags": ["chicken", "curry", "mango", "dinner"],
+    "cuisine": ["Asian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.9,
+      "no_of_votes": 180
+    }
+  },
+  {
+    "userId": "12",
+    "title": "Caprese Salad",
+    "images": [
+      "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2F3b432b41ce04c96a08d77befa42b9881a587a436",
+      "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/07/Caprese-Salad-main-1.jpg",
+      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/7/18/0/WU0314H_caprese-salad-recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1530799895174.jpeg",
+      "https://www.lemontreedwelling.com/wp-content/uploads/2021/07/cucumber-caprese-salad-featured.jpg"
+    ],
+    "description": "A refreshing salad featuring ripe tomatoes, fresh mozzarella, basil leaves, and a drizzle of balsamic glaze.",
+    "ingredients": [
+      "Tomatoes",
+      "Fresh mozzarella",
+      "Basil leaves",
+      "Balsamic glaze",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella.",
+      "Arrange them with basil leaves on a plate.",
+      "Drizzle with balsamic glaze and olive oil.",
+      "Season with salt and pepper."
+    ],
+    "caption": "A simple yet elegant salad bursting with flavor.",
+    "veg": true,
+    "time": "15 minutes",
+    "tags": ["salad", "vegetarian", "italian", "appetizer"],
+    "cuisine": ["Italian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.6,
+      "no_of_votes": 90
+    }
+  },
+  {
+    "userId": "13",
+    "title": "Teriyaki Tofu Stir-Fry",
+    "images": [
+      "https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2017/04/teriyaki-tofu-stir-fry-8.jpg?fit=1600%2C1000&ssl=1",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7TaTqS_WNDPVlu09X8ckBXzoGRudA8piwOJz5ZZim4w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXllV6mKeoIzOp0Xqpvs_Qp7o-rpJtXasi2FvCViF5hQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_6ElfHuF8D__SXuNNT453hs4igj2UnusmQFp-azXSg&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhG86udOiRD6RY1UHQog2Pl8AucE8k_QpZM7QvlIG6nA&s"
+    ],
+    "description": "Crispy tofu cubes stir-fried with colorful vegetables in a sweet and savory teriyaki sauce.",
+    "ingredients": [
+      "Tofu",
+      "Vegetables (bell peppers, broccoli, carrots)",
+      "Teriyaki sauce",
+      "Garlic",
+      "Ginger",
+      "Sesame oil",
+      "Soy sauce"
+    ],
+    "instructions": [
+      "Press tofu to remove excess moisture, then dice.",
+      "Stir-fry tofu with vegetables, garlic, and ginger.",
+      "Add teriyaki sauce and soy sauce.",
+      "Cook until vegetables are tender.",
+      "Serve over rice."
+    ],
+    "caption": "A vegetarian-friendly stir-fry packed with flavor.",
+    "veg": true,
+    "time": "30 minutes",
+    "tags": ["tofu", "stir-fry", "vegetarian", "dinner"],
+    "cuisine": ["Asian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.5,
+      "no_of_votes": 110
+    }
+  },
+  {
+    "userId": "14",
+    "title": "Pesto Pasta with Cherry Tomatoes",
+    "images": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRINzNQf2kSMCtpoFXPAU9FPIgHN8QLbjLtNkb51-Mgqw&s",
+      "https://img.taste.com.au/r3gbCiSL/taste/2022/09/healthy-chicken-pesto-pasta-recipe-181111-1.jpg",
+      "https://ohsweetbasil.com/wp-content/uploads/15-minute-pesto-pasta-recipe-6-500x500.jpg",
+      "https://www.theburntbuttertable.com/wp-content/uploads/2023/10/Creamy-Pesto-Pasta-2.jpg",
+      "https://www.kitchensanctuary.com/wp-content/uploads/2023/07/Pesto-Pasta-square-FS.jpg"
+    ],
+    "description": "Al dente pasta tossed in vibrant basil pesto and topped with juicy cherry tomatoes and Parmesan cheese.",
+    "ingredients": [
+      "Pasta",
+      "Basil pesto",
+      "Cherry tomatoes",
+      "Parmesan cheese"
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "Toss cooked pasta with basil pesto.",
+      "Top with halved cherry tomatoes and grated Parmesan cheese."
+    ],
+    "caption": "A quick and flavorful pasta dish perfect for busy weeknights.",
+    "veg": true,
+    "time": "20 minutes",
+    "tags": ["pasta", "vegetarian", "italian", "lunch"],
+    "cuisine": ["Italian"],
+    "likes": [],
+    "comments": [],
+    "rating": {
+      "value": 4.8,
+      "no_of_votes": 130
+    }
+  }
+]

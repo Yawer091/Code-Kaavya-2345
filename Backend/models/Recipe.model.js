@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const recipeSchema = new Schema({
   userId: {
     type: Schema.Types.ObjectId,
-    ref:"User",
+    ref: "User",
     required: "true",
   },
   title: String,
@@ -30,8 +30,8 @@ const recipeSchema = new Schema({
     },
   ],
   rating: {
-    value:Number,
-    no_of_votes:Number
+    value: Number,
+    no_of_votes: Number,
   },
 });
 
