@@ -355,7 +355,7 @@ export const Explore = () => {
                         border={"1px solid"}
                         borderColor={"secondary"}
                         color="secondary"
-                        onClick={() => navigate(`/recipe/${ele._id}`)}
+                        onClick={() => navigate(`/recipe/${ele.userId}`)}
                       >
                         Details
                       </Button>
