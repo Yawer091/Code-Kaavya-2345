@@ -6,6 +6,21 @@ HomeChef is a dynamic social platform designed for food enthusiasts and home coo
 ## Project Type
 Fullstack ( MERN )
 
+## Directory Structure
+my-app/
+├─ backend/
+|  ├─ config/
+|  ├─ controllers/
+|  ├─ middlewares/
+|  ├─ models/
+|  ├─ routes/
+|  ├─ index.js
+|  ├─ package.json
+
+
+├─ frontend/
+│  ├─ ...
+
 ## Deplolyed App
 Frontend: https://code-kaavya-2345.vercel.app/
 
@@ -42,10 +57,16 @@ npm run server
 ```
 
 ## Technology Stack
-- Frontend: React.js
+- Frontend: React.js, Chakara UI
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Other: Mongoose, bcrypt, JWT
 
+## Contributors
+HomeChef is a collabrative project. Meet our collaborators:
 
-This structure presents your project details clearly and professionally, making it easy for other developers and users to understand what HomeChef is about, how to get started, and how to use it.
+Yawer Atique(Team lead) fw29_091
+Bhawesh Pandey fw29_151
+Pratham Nemade
+
+
