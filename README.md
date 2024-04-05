@@ -7,46 +7,37 @@ HomeChef is a dynamic social platform designed for food enthusiasts and home coo
 Fullstack ( MERN )
 
 ## Directory Structure
-my-app/
-<br>
-├ ├─ backend/
-<br>
-  ├─ config/
-<br>
-  ├─ controllers/
-<br>
-  ├─ middlewares/
-<br>
-  ├─ models/
-<br>
-  ├─ routes/
-<br>
-  ├─ index.js
-<br>
-  ├─ package.json
+HomeChef/<br>
+├─ backend/<br>
+│  ├─ config/<br>
+│  ├─ controllers/<br>
+│  ├─ middlewares/<br>
+│  ├─ models/<br>
+│  ├─ routes/<br>
+│  ├─ index.js<br>
+│  ├─ package.json<br>
+└─ frontend/<br>
+   ├─ public/<br>
+   │  ├─ images/<br>
+   │  ├─ index.html<br>
+   │  ├─ manifest.json<br>
+   │  └─ robots.txt<br>
+   ├─ src/<br>
+   │  ├─ Images/<br>
+   │  ├─ components/<br>
+   │  ├─ pages/<br>
+   │  ├─ redux/<br>
+   │  ├─ routes/<br>
+   │  ├─ App.js<br>
+   │  ├─ App.test.js<br>
+   │  ├─ index.js<br>
+   │  ├─ reportWebVitals.js<br>
+   │  └─ setupTests.js<br>
+   ├─ .env<br>
+   ├─ .gitignore<br>
+   ├─ package-lock.json<br>
+   └─ package.json<br>
 
-<br>
-frontend/<br>
-│  ├─ public/<br>
-│  │  ├─ images/<br>
-│  │  ├─ index.html<br>
-│  │  ├─ manifest.json<br>
-│  │  └─ robots.txt<br>
-│  ├─ src/<br>
-│  │  ├─ Images/<br>
-│  │  ├─ components/<br>
-│  │  ├─ pages/<br>
-│  │  ├─ redux/<br>
-│  │  ├─ routes/<br>
-│  │  ├─ App.js<br>
-│  │  ├─ App.test.js<br>
-│  │  ├─ index.js<br>
-│  │  ├─ reportWebVitals.js<br>
-│  │  └─ setupTests.js<br>
-│  ├─ .env<br>
-│  ├─ .gitignore<br>
-│  ├─ package-lock.json<br>
-│  └─ package.json<br>
 
 ## Deplolyed App
 Frontend: https://code-kaavya-2345.vercel.app/
