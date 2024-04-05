@@ -8,16 +8,24 @@ Fullstack ( MERN )
 
 ## Directory Structure
 my-app/
+<br>
 ├─ backend/
+<br>
 |  ├─ config/
+<br>
 |  ├─ controllers/
+<br>
 |  ├─ middlewares/
+<br>
 |  ├─ models/
+<br>
 |  ├─ routes/
+<br>
 |  ├─ index.js
+<br>
 |  ├─ package.json
 
-
+<br>
 ├─ frontend/
 │  ├─ ...
 
