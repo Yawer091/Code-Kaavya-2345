@@ -66,7 +66,10 @@ npm run server
 HomeChef is a collabrative project. Meet our collaborators:
 
 Yawer Atique(Team lead) fw29_091
+<br>
 Bhawesh Pandey fw29_151
+<br>
 Pratham Nemade
+
 
 
