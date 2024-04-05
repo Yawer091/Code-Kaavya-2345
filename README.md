@@ -15,28 +15,29 @@ HomeChef/<br>
 │  ├─ models/<br>
 │  ├─ routes/<br>
 │  ├─ index.js<br>
-│  ├─ package.json<br>
+│  └─ package.json<br>
 └─ frontend/<br>
-   ├─ public/<br>
-   │  ├─ images/<br>
-   │  ├─ index.html<br>
-   │  ├─ manifest.json<br>
-   │  └─ robots.txt<br>
-   ├─ src/<br>
-   │  ├─ Images/<br>
-   │  ├─ components/<br>
-   │  ├─ pages/<br>
-   │  ├─ redux/<br>
-   │  ├─ routes/<br>
-   │  ├─ App.js<br>
-   │  ├─ App.test.js<br>
-   │  ├─ index.js<br>
-   │  ├─ reportWebVitals.js<br>
-   │  └─ setupTests.js<br>
-   ├─ .env<br>
-   ├─ .gitignore<br>
-   ├─ package-lock.json<br>
-   └─ package.json<br>
+|&nbsp;&nbsp;&nbsp;├─ public/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ images/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ index.html<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ manifest.json<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└─ robots.txt<br>
+|&nbsp;&nbsp;&nbsp;├─ src/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ Images/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ components/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ pages/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ redux/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ routes/<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ App.js<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ App.test.js<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ index.js<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ reportWebVitals.js<br>
+|&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└─ setupTests.js<br>
+|&nbsp;&nbsp;&nbsp;├─ .env<br>
+|&nbsp;&nbsp;&nbsp;├─ .gitignore<br>
+|&nbsp;&nbsp;&nbsp;├─ package-lock.json<br>
+|&nbsp;&nbsp;&nbsp;└─ package.json<br>
+
 
 
 ## Deplolyed App
