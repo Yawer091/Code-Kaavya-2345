@@ -1,1 +1,51 @@
-# Code-Kaavya-2345
+# HomeChef
+
+## Introduction
+HomeChef is a dynamic social platform designed for food enthusiasts and home cooks. It serves as a space where users can share their culinary creations, explore recipes, and connect with other like-minded individuals. The core functionality of HomeChef revolves around user-generated content, including recipes, cooking tips, and food photography. This platform aims to foster a community of food lovers, offering features such as post creation, friend management, and private messaging to enhance user engagement and interaction.
+
+## Project Type
+Fullstack ( MERN )
+
+## Deplolyed App
+Frontend: https://code-kaavya-2345.vercel.app/
+
+## Video Walkthrough of the project
+https://drive.google.com/file/d/1qiYx0JKfVxdMWI1q9WMKhf-9t92qag50/view?usp=sharing
+
+## Features
+- Secure user registration and authentication
+- Personalizable user profiles with pictures and information
+- Ability to create, edit, and share posts with text, images, and links
+- Dynamic news feed displaying posts from friends and global recipes
+- Like, comment, and share functionalities
+- Friend management features
+- Private messaging system
+- Recipe creation, editing, sharing, and viewing
+- Real-time notifications
+- User search functionality
+- Customizable user settings
+- Responsive design across devices
+- Data security with encryption and secure connections
+
+## Design Decisions or Assumptions
+The development focused on creating an intuitive and secure platform that emphasizes community building among food enthusiasts. Assumptions include a high engagement rate based on quality content and user-friendly features.
+
+## Installation & Getting Started
+```bash
+git clone https://github.com/Yawer091/Code-Kaavya-2345.git
+cd Code-Kaavya-2345/frontend
+npm install
+npm start
+cd ../backend
+npm install
+npm run server
+```
+
+## Technology Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Other: Mongoose, bcrypt, JWT
+
+
+This structure presents your project details clearly and professionally, making it easy for other developers and users to understand what HomeChef is about, how to get started, and how to use it.
