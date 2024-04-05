@@ -26,8 +26,27 @@ my-app/
   ├─ package.json
 
 <br>
-├─ frontend/
-│  ├─ ...
+frontend/<br>
+│  ├─ public/<br>
+│  │  ├─ images/<br>
+│  │  ├─ index.html<br>
+│  │  ├─ manifest.json<br>
+│  │  └─ robots.txt<br>
+│  ├─ src/<br>
+│  │  ├─ Images/<br>
+│  │  ├─ components/<br>
+│  │  ├─ pages/<br>
+│  │  ├─ redux/<br>
+│  │  ├─ routes/<br>
+│  │  ├─ App.js<br>
+│  │  ├─ App.test.js<br>
+│  │  ├─ index.js<br>
+│  │  ├─ reportWebVitals.js<br>
+│  │  └─ setupTests.js<br>
+│  ├─ .env<br>
+│  ├─ .gitignore<br>
+│  ├─ package-lock.json<br>
+│  └─ package.json<br>
 
 ## Deplolyed App
 Frontend: https://code-kaavya-2345.vercel.app/
