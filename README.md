@@ -64,6 +64,22 @@ https://drive.google.com/file/d/1qiYx0JKfVxdMWI1q9WMKhf-9t92qag50/view?usp=shari
 ## Design Decisions or Assumptions
 The development focused on creating an intuitive and secure platform that emphasizes community building among food enthusiasts. Assumptions include a high engagement rate based on quality content and user-friendly features.
 
+# Navbar
+![Screenshot 2024-04-05 110841](https://github.com/Yawer091/Code-Kaavya-2345/assets/150121687/ff5f6dbe-6533-4ba2-b547-f0c540c137ba)
+
+# SignIn / SignUp
+![Screenshot 2024-04-05 111024](https://github.com/Yawer091/Code-Kaavya-2345/assets/150121687/dadc573d-eb6d-4d52-a6bd-d553c732d1ef)
+
+# Mid-Section / Carousel
+![Screenshot 2024-04-05 110930](https://github.com/Yawer091/Code-Kaavya-2345/assets/150121687/ea6dfa28-ad9a-4bbf-be74-e877f3bcf380)
+
+# Profile 
+![Screenshot 2024-04-05 111617](https://github.com/Yawer091/Code-Kaavya-2345/assets/150121687/072eec93-0858-48ff-97a5-00b5c23d03b8)
+
+# Footer
+![Screenshot 2024-04-05 110957](https://github.com/Yawer091/Code-Kaavya-2345/assets/150121687/af544d65-b670-48fa-af86-e8bb520fa817)
+
+
 ## Installation & Getting Started
 ```bash
 git clone https://github.com/Yawer091/Code-Kaavya-2345.git
