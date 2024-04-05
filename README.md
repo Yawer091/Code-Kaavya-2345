@@ -9,7 +9,7 @@ Fullstack ( MERN )
 ## Directory Structure
 my-app/
 <br>
-├─ backend/
+├ ├─ backend/
 <br>
   ├─ config/
 <br>
