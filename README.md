@@ -11,19 +11,19 @@ my-app/
 <br>
 ├─ backend/
 <br>
-|  ├─ config/
+  ├─ config/
 <br>
-|  ├─ controllers/
+  ├─ controllers/
 <br>
-|  ├─ middlewares/
+  ├─ middlewares/
 <br>
-|  ├─ models/
+  ├─ models/
 <br>
-|  ├─ routes/
+  ├─ routes/
 <br>
-|  ├─ index.js
+  ├─ index.js
 <br>
-|  ├─ package.json
+  ├─ package.json
 
 <br>
 ├─ frontend/
