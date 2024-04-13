@@ -114,7 +114,7 @@ export const Explore = () => {
       });
   }, [filter]);
 
-  console.log(recipe, "recipe");
+  // console.log(recipe, "recipe");
 
   // All types of cuisine
   const cuisines = [
@@ -355,7 +355,7 @@ export const Explore = () => {
                         border={"1px solid"}
                         borderColor={"secondary"}
                         color="secondary"
-                        onClick={() => navigate(`/recipe/${ele.userId}`)}
+                        onClick={() => navigate(`/recipe/${ele._id}`)}
                       >
                         Details
                       </Button>

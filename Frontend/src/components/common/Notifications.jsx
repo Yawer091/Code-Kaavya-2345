@@ -46,7 +46,7 @@ export const Notifications = () => {
         },
       })
       .then((response) => {
-        console.log(response.data);
+        // console.log(response.data);
         setNotifications(response.data.notifications);
       })
       .catch((error) => {

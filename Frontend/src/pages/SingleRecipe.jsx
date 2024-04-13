@@ -32,19 +32,17 @@ import axios from "axios";
 
 function SingleRecipe() {
   const { postId } = useParams();
-  const [owner, setOwner] = useState({});
   const [recipe, setRecipe] = useState({});
 
-  const token =
-    useSelector((store) => store.authReducer.token) ||
-    localStorage.getItem("token");
-
+  const token = useSelector((store) => store.authReducer.token) || localStorage.getItem("token");
+  console.log(token);
   useEffect(() => {
     const config = {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     };
+    console.log(postId);
 
     axios
       .get(
@@ -52,18 +50,15 @@ function SingleRecipe() {
         config
       )
       .then((res) => {
-        // console.log(res.data)
+        console.log(res.data)
         setRecipe(res?.data);
-        setOwner(res.data.userId);
+        
         return res.data;
       })
       .catch((err) => {
         console.log(err);
       });
   }, []);
-
-  console.log("Recipe", recipe);
-  console.log("Owner", owner);
 
   if (!recipe.title) {
     return <h1>Loading..</h1>;
@@ -118,18 +113,7 @@ function SingleRecipe() {
               alignItems={"center"}
               justifyContent={"flex-start"}
             >
-              <Avatar
-                size="2xl"
-                src={`${process.env.REACT_APP_API_URL}/${owner.profileImage}`}
-              />
               <Box>
-                <Text
-                  fontSize={"xl"}
-                  fontWeight={"bolder"}
-                  textTransform={"uppercase"}
-                >
-                  {owner?.name}
-                </Text>
                 <Flex alignItems={"flex-end"}>
                   <svg
                     width="40"
@@ -142,9 +126,7 @@ function SingleRecipe() {
                       d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z"
                     />
                   </svg>
-                  <Text fontSize={"lg"} textTransform={"uppercase"}>
-                    {owner?.city}
-                  </Text>
+                  
                 </Flex>
               </Box>
             </Flex>
