@@ -33,9 +33,9 @@ export const RecipeCard = ({ img }) => {
       />
       <Box p={4}>
         <Text fontSize={{ lg: "lg", md: "md", base: "sm" }} mb={"1rem"}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi in aut
-          illum, eligendi iste dignissimos dolores veniam reiciendis natus rem,
-          iure harum deleniti! Sit possimus sint repellat iste dolores ab.
+          This dish combines fresh, high-quality ingredients to create a
+          wholesome and nutritious meal that your body will thank you for. With
+          a unique twist and a burst of exciting flavors, choice for a healthy
         </Text>
         <Center my="2">
           <StarRating rating={Math.floor(Math.random() * (5 - 3 + 1)) + 3} />

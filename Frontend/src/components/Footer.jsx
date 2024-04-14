@@ -46,26 +46,42 @@ function Footer() {
             <Heading as="h6" size="MD" marginBottom="16px">
               <a href="#"> ABOUT NCG</a>
             </Heading>
-            <Text>Shop</Text>
-            <Text>About</Text>
-            <Text>Work with me</Text>
-            <Text>Contact</Text>
+            <Text>
+              <Link to="#">Shop</Link>
+            </Text>
+            <Text>
+              <Link to="#">About</Link>
+            </Text>
+            <Text>
+              <Link to="#">Work with me</Link>
+            </Text>
+            <Text>
+              <Link to="#">Contact</Link>
+            </Text>
           </Box>
           <Box p={0} mr={4}>
             <Heading as="h6" size="MD" marginBottom="16px">
               EXPLORE
             </Heading>
-            <Text>Recipes</Text>
-            <Text>Fitness</Text>
-            <Text>Healthy living</Text>
-            <Text>Blogs</Text>
+            <Text>
+              <Link to="#">Recipes</Link>
+            </Text>
+            <Text>
+              <Link to="#">Fitness</Link>
+            </Text>
+            <Text>
+              <Link to="#">Healthy living</Link>
+            </Text>
+            <Text>
+              <Link to="#">Blogs</Link>
+            </Text>
           </Box>
           <Box>
             <Heading as="h6" size="md" marginBottom="16px">
               Connect
             </Heading>
             <Flex alignItems="center">
-              <Link href="#">
+              <Link href="https://www.facebook.com/" target="_blank">
                 <Icon
                   as={FaFacebook}
                   boxSize={6}
@@ -74,7 +90,7 @@ function Footer() {
                   _hover={{ color: "green" }}
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://twitter.com/?lang=en" target="_blank">
                 <Icon
                   as={FaTwitter}
                   transition="0.2s ease-in"
@@ -83,7 +99,7 @@ function Footer() {
                   marginRight="16px"
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://gmail.com/" target="_blank">
                 <Icon
                   as={FaEnvelope}
                   transition="0.2s ease-in"
@@ -92,7 +108,7 @@ function Footer() {
                   marginRight="16px"
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://pintrest.com/" target="_blank">
                 <Icon
                   as={FaPinterest}
                   transition="0.2s ease-in"
@@ -101,7 +117,7 @@ function Footer() {
                   marginRight="16px"
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://linkedin.com/" target="_blank">
                 <Icon
                   as={FaLinkedin}
                   transition="0.2s ease-in"
