@@ -5,7 +5,6 @@ const InfoCard = ({ title, img, direction, mb, screenSize }) => {
   return (
     <Flex
       margin="auto"
-      // border="1px solid black"
       direction={screenSize === "lg" ? direction : "column"}
       width="min(80rem,100%)"
       alignItems="center"

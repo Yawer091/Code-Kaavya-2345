@@ -44,10 +44,7 @@ export default function FeedCard({ recipe }) {
   );
 
   const addLikeHandler = () => {
-    // Check if the loggedInUser has not already liked the recipe
     if (!liked) {
-      // Perform the like operation here, e.g., send a request to your API
-      // Update the local state or Redux state accordingly
       let newLikes = [...recipe.likes, loggedInUser._id];
       let newLikedRecipes = [...loggedInUser.likedRecipes];
       if (!newLikedRecipes.includes(recipe._id)) {
@@ -72,7 +69,6 @@ export default function FeedCard({ recipe }) {
   };
 
   const removeLikeHandler = () => {
-    // Check if the loggedInUser has already liked the recipe
     if (liked) {
       let newLikes = [...recipe.likes].filter(
         (like) => like !== loggedInUser._id
@@ -82,11 +78,9 @@ export default function FeedCard({ recipe }) {
       );
 
       console.log(newLikes, 1, newLikedRecipes, 2);
-      // Perform the unlike operation here, e.g., send a request to your API
       dispatch(
         updateRecipe(recipe._id, { likes: newLikes }, token, toast, "dislike")
       );
-      // Update the local state or Redux state accordingly
       dispatch(
         updateUser(
           loggedInUser._id,
@@ -101,12 +95,8 @@ export default function FeedCard({ recipe }) {
   };
 
   const saveRecipeHandler = () => {
-    // Check if the recipe is not already saved
     if (!saved) {
       let newSavedRecipes = [...loggedInUser.savedRecipes, recipe._id];
-
-      // Perform the save operation here, e.g., send a request to your API
-      // Update the local state or Redux state accordingly
       dispatch(
         updateUser(
           loggedInUser._id,
@@ -123,14 +113,10 @@ export default function FeedCard({ recipe }) {
   };
 
   const unsaveRecipeHandler = () => {
-    // Check if the recipe is already saved
     if (saved) {
       let newSavedRecipes = loggedInUser.savedRecipes.filter(
         (savedRecipeId) => savedRecipeId !== recipe._id
       );
-
-      // Perform the unsave operation here, e.g., send a request to your API
-      // Update the local state or Redux state accordingly
       dispatch(
         updateUser(
           loggedInUser._id,
@@ -157,7 +143,6 @@ export default function FeedCard({ recipe }) {
     }
 
     try {
-      // Send a request to add a new comment
       const response = await axios.post(
         `${process.env.REACT_APP_API_URL}/comment/add`,
         {
@@ -181,7 +166,6 @@ export default function FeedCard({ recipe }) {
       setNewComment("");
       dispatch(getFeed(token));
     } catch (error) {
-      // Handle errors and display a toast message
       toast({
         title: "Couldn't add comment",
         status: "error",
@@ -195,7 +179,6 @@ export default function FeedCard({ recipe }) {
     if (newComment.trim() === "") return;
 
     try {
-      // Send a request to update the comment
       const response = await axios.patch(
         `${process.env.REACT_APP_API_URL}/comment/update/${editingComment}`,
         { text: newComment },
@@ -206,7 +189,6 @@ export default function FeedCard({ recipe }) {
         }
       );
 
-      // Update the local state to reflect the updated comment
       const updatedComments = comments.map((comment) => {
         if (comment._id === editingComment) {
           return response.data.comment;
@@ -224,7 +206,6 @@ export default function FeedCard({ recipe }) {
       setNewComment("");
       dispatch(getFeed(token));
     } catch (error) {
-      // Handle errors and display a toast message
       toast({
         title: "Couldn't update comment",
         status: "error",
@@ -236,7 +217,6 @@ export default function FeedCard({ recipe }) {
 
   const deleteCommentHandler = async (commentId) => {
     try {
-      // Send a request to delete the comment
       await axios.delete(
         `${process.env.REACT_APP_API_URL}/comment/delete/${commentId}`,
         {
@@ -251,13 +231,11 @@ export default function FeedCard({ recipe }) {
         duration: 1000,
         isClosable: true,
       });
-      // Update the local state to remove the deleted comment
       setComments((prevComments) =>
         prevComments.filter((comment) => comment._id !== commentId)
       );
       dispatch(getFeed(token));
     } catch (error) {
-      // Handle errors and display a toast message
       toast({
         title: "Couldn't delete comment",
         status: "error",
@@ -437,7 +415,6 @@ export default function FeedCard({ recipe }) {
                           {comment.userId.name}
                         </Text>
                       </div>
-                      {/* <Text letterSpacing={"1px"}>{comment.text}</Text> */}
 
                       <Editable
                         defaultValue={comment.text}
@@ -522,7 +499,6 @@ export default function FeedCard({ recipe }) {
             );
           })}
 
-          {/* Add a new comment */}
           <Input
             onChange={(e) => setNewComment(e.target.value)}
             focusBorderColor="transparent"

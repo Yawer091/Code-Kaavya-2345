@@ -159,11 +159,9 @@ export const Explore = () => {
             >
               Find the best recipes in a few step!
             </Heading>
-
-            <Button>Search now</Button>
           </VStack>
         </Box>
-        {/* Search bar and advance search option */}
+
         <Box boxShadow="0 4px 10px #0002" padding="4">
           <HStack spacing={5} width="min(80rem,100%)" mx="auto">
             <InputGroup width="30%">

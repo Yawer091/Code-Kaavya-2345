@@ -210,13 +210,11 @@ export const Home = () => {
             mx="auto"
             size={{ lg: "xl", md: "lg", base: "md" }}
           >
-            {" "}
-            MOST POPULAR ITEM{" "}
+            MOST POPULAR ITEM
           </Heading>
           <Text mb={"2rem"}>
-            {" "}
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br />
-            Odit id et est eveniet officiis.{" "}
+            Odit id et est eveniet officiis.
           </Text>
           <Button mb={"4rem"}>Explore More</Button>
           <SimpleGrid
@@ -262,7 +260,6 @@ export const Home = () => {
               noOfLines={{ lg: 2 }}
               color="text"
               maxW={{ lg: "500px" }}
-              // ml="auto"
               size={{ lg: "xl", md: "lg", base: "md" }}
             >
               THAT'S WHAT OUR <br /> SAY CLIENT

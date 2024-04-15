@@ -32,7 +32,6 @@ export const UserFeed = () => {
   return (
     <Box p={5} w="50%" h="90vh" overflowY="scroll" className="scroll">
       {isLoading ? (
-        // Display loading state if the data is still being fetched
         <Flex alignItems="center" justifyContent={"center"} minH={"50vh"}>
           <Spinner
             w="6rem"
