@@ -18,6 +18,7 @@ import { NonFriends } from "../components/Feed/NonFriends";
 import { Requests } from "../components/Feed/Requests";
 import { useDispatch, useSelector } from "react-redux";
 import { getFriends } from "../redux/userReducer/actions";
+import { AddRecipeModal } from "./AddRecipeModal";
 
 export const Feed = () => {
   const dispatch = useDispatch();
@@ -75,6 +76,7 @@ export const Feed = () => {
           <NonFriends></NonFriends>
         </Box>
       </Flex>
+      <AddRecipeModal />
     </DIV>
   );
 };

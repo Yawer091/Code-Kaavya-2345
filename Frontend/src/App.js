@@ -8,7 +8,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <AllRoutes></AllRoutes>
-      <AddRecipeModal />
+      {/* <AddRecipeModal /> */}
       <Footer />
     </div>
   );

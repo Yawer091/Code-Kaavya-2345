@@ -41,6 +41,7 @@ import { BiLike, BiShare } from "react-icons/bi";
 import styled from "@emotion/styled";
 import { useNavigate } from "react-router-dom";
 import { Carousel } from "../components/Feed/SingleRecipeCarousel";
+import { AddRecipeModal } from "./AddRecipeModal";
 
 export const Explore = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -159,9 +160,11 @@ export const Explore = () => {
             >
               Find the best recipes in a few step!
             </Heading>
+
+            {/* <Button>Search now</Button>*/}
           </VStack>
         </Box>
-
+        {/* Search bar and advance search option */}
         <Box boxShadow="0 4px 10px #0002" padding="4">
           <HStack spacing={5} width="min(80rem,100%)" mx="auto">
             <InputGroup width="30%">
@@ -364,6 +367,7 @@ export const Explore = () => {
             ))
           )}
         </DIV>
+        <AddRecipeModal />
       </Box>
     </>
   );
